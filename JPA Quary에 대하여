@@ -1,4 +1,5 @@
 ```java
+
 public Board findByMemberIdAndPubTime(BoardDTO boardDTO){
         List<Board> result = em.createQuery("select b from Board b where b.member = :member and b.pubTime = :pubTime",
                         Board.class)
@@ -7,4 +8,5 @@ public Board findByMemberIdAndPubTime(BoardDTO boardDTO){
                 .getResultList();
         return result.stream().findAny().orElseThrow(NoSuchElementException::new);
     }
+    
 ```
