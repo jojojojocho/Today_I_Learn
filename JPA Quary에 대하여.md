@@ -8,6 +8,7 @@ public Board findByMemberIdAndPubTime(BoardDTO boardDTO){
                 .setParameter("pubTime", boardDTO.getPubTime())
                 .getResultList();
 }    
+
 public Long delete(Member member){
         Member member1 = em.find(Member.class, member.getId());
         List<Board> result = em.createQuery("select b from Board b where b.member = :member ", Board.class)
