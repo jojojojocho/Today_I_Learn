@@ -19,7 +19,7 @@ spring boot 1.5버전 : default 값은 false 그리고 기본키 생성전략이
 
 그리고 값이 False로 설정되어 있다면, 
 
-persistance.xml 또는 application.property 파일에 설정되어 있는 하이버네이트 방언(hibernate.dialect) 의 값이 어떤 db의 방언으로 설정되어 있는지 확인하고 그 방언의 기본전략을 사용 하는 듯하다.
+persistance.xml 또는 application.property 파일에 설정되어 있는 하이버네이트 방언(hibernate.dialect) 의 값이 어떤 db의 방언으로 설정되어 있는지 확인하고 그 방언의 기본전략을 사용 하는 듯하다. (native generator 사용)
 
 false 실행 결과 mysql 같은 경우는 pk컬럼에 auto_increment가 설정 되었다. 즉 IDENTITY 전략이 사용된 것이다.
 
