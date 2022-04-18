@@ -13,7 +13,8 @@ JPA에서는 PK 생성 전략을 총 4개 제공해준다.
 
 타입이 숫자타입(Integer, Long) 이라면 하이버네이트 persistance.xml 또는 application.property파일의 spring.jpa.hibernate.use-new-id-generator-mappings = 의 값이 True인지 False인지 확인한다. 
 
-(spring boot 2.0 버전 이상 : defalt값은 True 
+(spring boot 2.0 버전 이상 : defalt값은 True /
+
 spring boot 1.5버전 : default 값은 false 그리고 기본키 생성전략이 auto인경우 IDENTITY 전략을 사용.)
 
 그리고 값이 False로 설정되어 있다면, 
