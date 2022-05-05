@@ -20,7 +20,7 @@
 
 스레드를 설명하기에 앞서 프로세서 즉, cpu에 대해 알아보자
 
-cpu는 Central Processing unit이다. 가운데 processing에서 보듯 프로세스 안에 있는 실행 코드를 직접 실행, 즉 연산하는 역할을 한다.
+cpu는 Central Processing Unit이다. 가운데 processing에서 보듯 프로세스 안에 있는 실행 코드를 직접 실행, 즉 연산하는 역할을 한다.
 
 cpu는 연산 영역, 제어영역, 레지스터 영역으로 나누어 볼 수 있다. 프로세서는 최소한 한개이상의 ALU(Arithmetic logical unit) 과 처리 레지스터를 가진다.
 
