@@ -43,3 +43,25 @@ fuction 함수이름(){
 document.querySelector("selector 작성...")
 ```
 을 사용한다면 굉장히 쉽게 페이지 내의 태그에 접근할 수 있다.
+
+### element.addEventListener을 통한 동적 웹페이지 구성
+
+자바스크립트는 어떠한 이벤트가 발생하면 함수를 작동하게 할 수 있도록 EventListener를 제공해주고 있다.
+
+button, a 등과 같은 태그(element)를 선언 후 이벤트리스너를 추가해주면 된다. 사용방법은 다음과 같다.
+
+```java
+h1.addEventListener("click", clickHandler);
+h1.addEventListener("mouseenter", mouseEnterHandler);
+h1.addEventListener("mouseleave", mouseLeaveHandler );
+
+```
+
+또한 웹브라우저의 변화를 감지하고 그에 대한 액션을 취할 수도 있다. 이럴 경우에는 window 엘리먼트를 이용한다.
+
+```java
+window.addEventListener("resize", windowResizeHandler);
+window.addEventListener("copy", windowCopyHandler);\
+window.addEventListener("offline", windowOfflineHandler);
+window.addEventListener("online", windowOnlineHandler);
+```
