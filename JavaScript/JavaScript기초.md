@@ -52,8 +52,8 @@ button, a 등과 같은 태그(element)를 선언 후 이벤트리스너를 추�
 
 ```java
 h1.addEventListener("click", clickHandler);
-h1.addEventListener("mouseenter", mouseEnterHandler);
-h1.addEventListener("mouseleave", mouseLeaveHandler );
+button.addEventListener("mouseenter", mouseEnterHandler);
+button.addEventListener("mouseleave", mouseLeaveHandler );
 
 ```
 
