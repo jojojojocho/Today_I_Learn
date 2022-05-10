@@ -61,7 +61,7 @@ button.addEventListener("mouseleave", mouseLeaveHandler );
 
 ```java
 window.addEventListener("resize", windowResizeHandler);
-window.addEventListener("copy", windowCopyHandler);\
+window.addEventListener("copy", windowCopyHandler);
 window.addEventListener("offline", windowOfflineHandler);
 window.addEventListener("online", windowOnlineHandler);
 ```
